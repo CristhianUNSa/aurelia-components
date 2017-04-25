@@ -1,0 +1,11 @@
+<template>
+  <require from="./components/table-item"></require>
+  <h1>Componentes</h1>
+  <table>
+    <tr repeat.for="item of mydata">
+      <td>
+        <table-item persona.bind="item"></table-item>
+      </td>
+    </tr>
+  </table>
+</template>
